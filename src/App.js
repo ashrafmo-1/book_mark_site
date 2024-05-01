@@ -4,7 +4,7 @@ import Links from './linkes/Links';
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor: "var(--main_bg)", height: "100vh"}}>
+    <div className="App" style={{backgroundColor: "var(--main_bg)"}}>
       <Controller />
       <Links />
     
