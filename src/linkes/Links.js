@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react";
 const Links = () => {
   const [links, setLinks] = useState([]);
   useEffect(() => {
-    const link = "http://localhost:8080/Bookmarks";
+    const link = "https://book-mark-urls.onrender.com";
     fetch(link).then(res => res.json()).then(data => setLinks(data));
   }, []);
 
